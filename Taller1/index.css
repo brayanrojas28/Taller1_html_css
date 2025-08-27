@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #333;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.5;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10%;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header img {
+    width: 6%;
+}
+
+header h1 {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+nav .hogar {
+    color: #0984e3;
+    font-weight: 700;
+}
+
+.card__button--primary {
+    padding: 10px 20px;
+    background: linear-gradient(to bottom right, aqua, #0984e3);
+    color: #fff;
+    border-radius: 25px;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+}
+
+.card__image {
+    width: 50%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.services {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 60px 10%;
+}
+
+.services article {
+    background: #fff;
+    padding: 50px 30px 10px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.services .highlight {
+    padding-top: 30%;
+    background: linear-gradient(to bottom right, aqua, #0984e3);
+    color: #fff;
+}
+
+.reviews {
+    display: flex;
+    padding: 5px 10%;
+    padding-bottom: 50px;
+    gap: 70px;
+}
+
+.reviews img {
+    width: 13%;
+    border-radius: 1px;
+}
+
+.reviews h4 {
+    color: #0984e3;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+blockquote {
+    text-align: center;
+    background: #fff;
+    margin: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px 10px;
+}
+
+blockquote footer {
+    font-size: 14px;
+    color: #0984e3;
+}
+
+blockquote img {
+    border-radius: 1px;
+    padding: 10px 0 1px 0;
+}
